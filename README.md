@@ -1,5 +1,17 @@
 # rb-swatch - Internet Time converter
 
+# EXAMPLE
+
+```
+$ swatch
+@150.00
+$ swatch
+@150.01
+$ swatch
+@150.02
+...
+```
+
 # HOMEPAGE
 
 https://github.com/mcandre/rb-swatch
@@ -7,13 +19,6 @@ https://github.com/mcandre/rb-swatch
 # RUBYGEMS
 
 https://rubygems.org/gems/rb-swatch
-
-# EXAMPLE
-
-```
-$ swatch
-@150.00
-```
 
 # REQUIREMENTS
 
