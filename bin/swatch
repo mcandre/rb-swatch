@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'swatch'
+
+begin
+  main
+# User may quit before completion.
+rescue Interrupt
+  nil
+# May be piped to another program (e.g. `less`),
+# which is quit before this completes.
+rescue Errno::EPIPE, Errno::EMFILE
+  nil
+end
