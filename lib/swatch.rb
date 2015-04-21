@@ -5,6 +5,8 @@
 # Credits: http://www.krugle.com/files/cvs/cvs.jabberstudio.org/neutron/plugins/time_plugin.py
 #
 
+require_relative 'version'
+
 require 'time'
 require 'contracts'
 include Contracts
