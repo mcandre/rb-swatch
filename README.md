@@ -22,7 +22,7 @@ https://rubygems.org/gems/rb-swatch
 
 # REQUIREMENTS
 
-* [Ruby](https://www.ruby-lang.org/) 2.0+
+* [Ruby](https://www.ruby-lang.org/) 2.7+
 
 ## Optional
 
